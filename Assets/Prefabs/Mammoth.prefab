@@ -42,6 +42,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5294429190454670949}
   - component: {fileID: 3668837724369244676}
+  - component: {fileID: 8364329376758449079}
+  - component: {fileID: 7538391325723872720}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -116,3 +118,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8364329376758449079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112694868801154878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e70c6acf19d0f45a48f8697ea6d52f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPoint: {x: 0, y: 0, z: 0}
+  endPoint: {x: 0, y: 0, z: 0}
+  normalized: {x: 0, y: 0, z: 0}
+  final: {x: 0, y: 0, z: 0}
+--- !u!114 &7538391325723872720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112694868801154878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16008f4b25a0b946825dcc1beabf90c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mammothPrefab: {fileID: 51269688271871008}
+  cheetahPrefab: {fileID: 0}

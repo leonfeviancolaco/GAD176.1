@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Enemies
 {
-    public virtual spawnMessage()
+    public virtual void spawnMessage()
     {
         Debug.Log("An enemy has spawned");
     }

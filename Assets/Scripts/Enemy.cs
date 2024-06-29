@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
-{ 
-
-    [SerializeField] Vector3 startPoint;
-    [SerializeField] Vector3 endPoint;
-    [SerializeField] Vector3 normalized;
-    [SerializeField] Vector3 final;
+{
+    public Transform location;
+    public Player player;
+    Vector3 startPoint;
+    Vector3 endPoint;
+    Vector3 normalized;
+    Vector3 final;
     
     float x;
     float y;
@@ -18,7 +19,9 @@ public class Enemy : MonoBehaviour
     float overcame = 0;
     void Start()
     {
-        final = startPoint;
+        player = GetComponent<Player>();
+        startPoint = player.transform.position;
+        endPoint = gameObject.transform.position;
 
         normalized.x = endPoint.x - startPoint.x;
         normalized.y = endPoint.y - startPoint.y;     
