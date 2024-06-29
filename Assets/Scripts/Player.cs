@@ -22,5 +22,7 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
+
+        transform.Rotate(0.0f, 0.0f, 20.0f);
     }
 }
