@@ -123,6 +123,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &12112614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 12112616}
+  - component: {fileID: 12112615}
+  - component: {fileID: 12112617}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &12112615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12112614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16008f4b25a0b946825dcc1beabf90c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mammothPrefab: {fileID: 51269688271871008, guid: 8a69685dc85b1124c93d979164c944e0, type: 3}
+  cheetahPrefab: {fileID: 466271384325642793, guid: 64bfdad9cbc56fe4db3d0bd1ed357db4, type: 3}
+--- !u!4 &12112616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12112614}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.8878226, y: 0.09970793, z: -0.069991544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &12112617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12112614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e70c6acf19d0f45a48f8697ea6d52f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  enemy: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   playerLocation: {x: 0, y: 0}
-  rb: {fileID: 0}
+  rb: {fileID: 1154541469}
 --- !u!50 &1154541469
 Rigidbody2D:
   serializedVersion: 4
@@ -395,3 +456,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 1154541471}
+  - {fileID: 12112616}
