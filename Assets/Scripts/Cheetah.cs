@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cheetah : MonoBehaviour
+public class Cheetah : Enemies
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void spawnMessage()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("The Cheetah is here...");
     }
 }
