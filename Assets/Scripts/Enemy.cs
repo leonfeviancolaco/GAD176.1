@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float rotationSpeed;
 
     //Find player's position
-    void Start()
+    void Awake()
     {
         target = FindObjectOfType<Player>().transform;
     }
@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
     //action when enemy near enough to player
     public virtual void Deathchecker()
     {
-        if (Vector3.Distance(transform.position, target.position) <= 2)
+        if (Vector3.Distance(transform.position, target.position) <= 1)
         {
             Destroy(gameObject);
             SceneManager.LoadScene(1);

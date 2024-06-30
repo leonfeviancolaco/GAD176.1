@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1842745256736665095}
+  - component: {fileID: 5150123332016995438}
   m_Layer: 0
   m_Name: Mammoth
   m_TagString: Untagged
@@ -32,6 +33,21 @@ Transform:
   - {fileID: 5294429190454670949}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5150123332016995438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51269688271871008}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e70c6acf19d0f45a48f8697ea6d52f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  moveSpeed: 1.5
+  rotationSpeed: 0
 --- !u!1 &112694868801154878
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,10 +146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e70c6acf19d0f45a48f8697ea6d52f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPoint: {x: 0, y: 0, z: 0}
-  endPoint: {x: 0, y: 0, z: 0}
-  normalized: {x: 0, y: 0, z: 0}
-  final: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  moveSpeed: 1
+  rotationSpeed: 2
 --- !u!114 &7538391325723872720
 MonoBehaviour:
   m_ObjectHideFlags: 0

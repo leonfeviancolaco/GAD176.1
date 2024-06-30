@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Button : MonoBehaviour
 {
-    private void Playagain()
+    public void Playagain()
     {
         SceneManager.LoadScene(0);
     }
