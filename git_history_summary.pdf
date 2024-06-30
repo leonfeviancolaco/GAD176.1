@@ -1,0 +1,17 @@
+* 29f32fb (HEAD -> main, origin/main, origin/HEAD) added tmp and fixed issues with enemy, created end scene
+* 986639e New scene to show end and play again button
+* 12c836d few changes for the scene and characters
+* 22bee98 adding and fixing of scripts after merge
+*   d12fa51 Merge branch 'Enemy'
+|\  
+| * f917543 (Enemy) enemy script
+* | 4aa069b (origin/Enemies, Enemies) new prefabs and spawning codes
+* | 7fde0ed enemy spawner
+* | 0570614 created scripts for enemy creation and different enemies
+* | 658e197 (origin/player, player) added rotation to the player
+* | bc8aadf added trigger and fixed movement issue
+* | 33b0a7f added movement and character for player
+|/  
+* 8956c17 creation of unity and few scripts
+* 2178a71 repo creation and uploading of files
+* 3d869a5 Initial commit
